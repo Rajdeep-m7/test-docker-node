@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   app:
-    build: ./app
+    image: rajdeep7/docker-nodejs-app:latest
     container_name: node_app
     ports:
       - "3000:3000"
